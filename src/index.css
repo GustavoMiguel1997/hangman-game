@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "MouseMemoirs";
+  src: url("./assets/fonts/MouseMemoirs-Regular.ttf");
+}
+
+:root {
+  --primary: #2463ff;
+  --secondary: #261676;
+  --background: #ffffff;
+
+  --font-body: 1.625rem;
+  --font-small: 2rem;
+  --font-medium: 3rem;
+  --font-large: 5.5rem;
+  --font-xlarge: 8.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "MouseMemoirs";
+}
