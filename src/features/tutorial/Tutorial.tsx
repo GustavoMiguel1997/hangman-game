@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import { Button } from "@components/Button/Button";
+import { Header } from "@components/Header/Header";
 import { Section } from "./components/Section/Section";
 
 import backIcon from "@assets/images/icon-back.svg";
@@ -12,16 +12,11 @@ export function Tutorial() {
 
   return (
     <div className={styles.container}>
-      <header className={styles.header}>
-        <Button
-          type="secondary"
-          size="medium"
-          isRounded
-          icon={<img src={backIcon} />}
-          onClick={() => navitate(-1)}
-        />
-        <h1>How to Play</h1>
-      </header>
+      <Header
+        title="How to Play"
+        icon={backIcon}
+        onClick={() => navitate(-1)}
+      />
       <div className={styles.sections}>
         <Section
           title="01"

@@ -1,0 +1,11 @@
+:root {
+  --primary: #2463ff;
+  --secondary: #261676;
+  --background: #ffffff;
+
+  --font-body: 1.625rem;
+  --font-small: 2rem;
+  --font-medium: 3rem;
+  --font-large: 5.5rem;
+  --font-xlarge: 8.5rem;
+}

@@ -5,7 +5,7 @@ import styles from "./Button.module.scss";
 type Props = {
   text?: string;
   icon?: React.ReactNode;
-  type?: "primary" | "secondary";
+  type?: "primary" | "secondary" | "square";
   isRounded?: boolean;
   size?: "small" | "medium" | "large";
   textSize?: "small" | "medium" | "large";

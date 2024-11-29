@@ -1,0 +1,48 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  width: 100%;
+
+  h1 {
+    font-size: var(--font-large);
+    font-weight: 100;
+    color: #fff;
+  }
+}
+
+.healthContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.healthBar {
+  background-color: #fff;
+  border-radius: 90px;
+  overflow: hidden;
+  padding: 8px;
+  height: 30px;
+  width: 240px;
+}
+
+.healthFill {
+  background-color: var(--secondary);
+  border-radius: inherit;
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+}

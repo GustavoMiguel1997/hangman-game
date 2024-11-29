@@ -18,7 +18,7 @@ export function Home() {
           size="large"
           isRounded
           icon={<img src={playIcon} />}
-          onClick={() => navitate("/game")}
+          onClick={() => navitate("/category")}
         />
         <Button
           text="HOW TO PLAY"

@@ -1,0 +1,17 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  list-style: none;
+
+  button {
+    width: 400px;
+  }
+}
