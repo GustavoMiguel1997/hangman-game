@@ -9,23 +9,23 @@ import { Game } from "./game/Game";
 
 export const router = createBrowserRouter([
   {
-    path: "",
+    path: "/hangman-game",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "",
         element: <Home />,
       },
       {
-        path: "/tutorial",
+        path: "tutorial",
         element: <Tutorial />,
       },
       {
-        path: "/category",
+        path: "category",
         element: <Category />,
       },
       {
-        path: "/game",
+        path: "game",
         element: <Game />,
       },
     ],

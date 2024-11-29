@@ -18,12 +18,12 @@ export function Home() {
           size="large"
           isRounded
           icon={<img src={playIcon} />}
-          onClick={() => navitate("/category")}
+          onClick={() => navitate("./category")}
         />
         <Button
           text="HOW TO PLAY"
           textSize="small"
-          onClick={() => navitate("/tutorial")}
+          onClick={() => navitate("./tutorial")}
         />
       </div>
     </main>
